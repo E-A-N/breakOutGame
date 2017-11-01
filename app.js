@@ -10,11 +10,6 @@ var server = require('http').Server(app);
 //use path object to make server platform agnostic
 var path	= require('path');
 
-//retrieve main server logic
-var servRoute = path.join(__dirname,'server','webSockets');
-servRoute = path.normalize(servRoute);
-//var webSockets = require(servRoute)(io);
-
 //Run socket connections for testing
 // var unitTestRoute = path.join(__dirname, 'server','testSockets');
 // unitTestRoute = path.normalize(unitTestRoute);
