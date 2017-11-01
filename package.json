@@ -1,7 +1,7 @@
 {
-  "name": "basic-networked-multiplayer-game",
+  "name": "Ean Phaser Template",
   "version": "0.0.1",
-  "description": "A basic networked multiplayer game example/template, with lots of explanations.",
+  "description": "A boilerplate that setups phaser, qUnit, and websockets",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^1.7.3"
